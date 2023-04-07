@@ -54,6 +54,6 @@ void FillCorrectedText(string[] arr, string[] newArr)
 
 void PrintResult(string[] arr, string[] newArr)
 {
-    Console.Write($"S[{String.Join(", ", arr)}] -> [{String.Join(", ", newArr)}]");
+    Console.Write($"[\"{String.Join("\", \"", arr)}\"] -> [\"{String.Join("\", \"", newArr)}\"]");
     Console.WriteLine();
 }
